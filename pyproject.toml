@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ocrNexusPkg"
+version = "0.1.0"
+description = ""
+authors = ["Ch Muhammad Awais <c.awais@innopolis.university>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.1"
+ocrmypdf = "^12.3.1"
+pytesseract = "^0.3.8"
+spellchecker = "^0.4"
+opencv-python = "^4.5.3"
+Pillow = "^8.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
